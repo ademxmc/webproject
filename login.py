@@ -3,7 +3,7 @@ from flask import Flask, request, render_template_string, redirect, url_for, ses
 app = Flask(__name__)
 app.secret_key = 'secret123'  
 
-# بيانات دخول وهمية
+
 users = {
     "admin": "admin123",
     "test": "test123",
